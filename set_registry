@@ -1,0 +1,9 @@
+## 设置docker镜像
+
+```bash
+    sudo docker --registry-mirror=http://<my-docker-mirror-host> -d
+```
+
+## 注意点
+> Depending on your local host setup, you may be able to add the
+> --registry-mirror options to the DOCKER_OPTS variable in /etc/default/docker
