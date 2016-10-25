@@ -1,4 +1,4 @@
-## write a dockerFile【docker配置文件,以官网为栗】
+## write a dockerFile【docker配置文件,以官网为例】
 
 ```bash
     FROM docker/whalesay:latest
