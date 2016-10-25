@@ -5,8 +5,10 @@
 3. 通过端口号和相关bash操作，进行容器交互
 
 
-## 以如下的bash为例
+> 以如下的bash为例
+> [注:以下docker java image的bash命令来自爱屋吉屋FE恩鹏 https://github.com/mtyang]
 
+```
 #!/bin/bash
 #
 # 加载本地镜像
@@ -134,4 +136,5 @@ do
         ;;
     esac
 done
+```
 
